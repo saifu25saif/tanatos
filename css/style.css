@@ -1,0 +1,137 @@
+/*
+Author: Saifur Rahman Chowdjury
+E-mail: saifu25saif@gmail.com
+Contact: +880-1816-120934
+Website: http://saif-rahman.com
+*/
+
+/* for mobile responsiveness */
+@media (max-width: 767px) {
+    
+}
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {
+
+}
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){
+    
+}
+
+
+/* slider part start */
+/* top bar start */
+.slider_wrapper{
+    background-color: #474D54;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 500px;
+}
+.slider_wrapper>.row>.container>.menu{
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-family: 'Open Ssans',sans-serif;
+    font-weight: 700;
+    border: 5px white;
+}
+.slider_wrapper>.row>.container>.logo>img{
+    width: 140px;
+    padding-left: 20px;
+}
+/* top bar end */
+/* slider part start */
+.slider_content> h1{
+    color: white;
+    font-family: 'Open Ssans',sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}    
+.slider_content> h1> span{
+    color: #F5600F;
+}
+.slider_content> p{
+    color: #D3DFED;
+    font-family: 'Open Ssans',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.slider_content> .btn_one{
+    margin-top: 30px;
+    font-family: 'Open Ssans',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: #F5600F;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    border: 1px solid #ffa336;
+    margin-right: 20px;
+}
+.slider_content> .btn_one:hover{
+    background: #cc5200;
+    border: 1px solid #ff944d;
+}
+.slider_content> .btn_two{
+    margin-top: 30px;
+    font-family: 'Open Ssans',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: #474D54;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: 1px solid #f1f2f6;
+}
+.slider_content> .btn_two:hover{
+    background: #363c44;
+    border: 1px solid black;
+}
+.indicator> img{
+    width: 20px;
+    margin-top: 50px;
+    transition: all 1.5s;
+}
+.indicator> img:hover{
+    width: 20px;
+    margin-top: 50px;
+    transform: rotate(360deg);
+}
+/* slider part end */
+.design_wrapper{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.design_wrapper> .row> .design> .design_content> img{
+    width: 100px;
+}
+.design_wrapper> .row> .design> .design_content{
+    opacity: 0.8;
+    transition: all 1.2s;
+}
+.design_wrapper> .row> .design> .design_content:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.design_wrapper> .row> .design> .design_content> h1{
+    font-family: 'Open Ssans',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.design_wrapper> .row> .design> .design_content> p{
+    font-family: 'Open Ssans',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 10px;
+}
