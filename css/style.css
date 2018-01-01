@@ -34,7 +34,7 @@ Website: http://saif-rahman.com
     padding-top: 40px;
     padding-left: 130px;
     font-size: 14px;
-    font-family: 'Open Ssans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-weight: 700;
 }
 .slider_wrapper>.row>.container>.menu>.list-inline>li{
@@ -57,13 +57,13 @@ Website: http://saif-rahman.com
 .slider_wrapper>.row>.container>.logo>img{
     width: 140px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 /* top bar end */
 /* slider part start */
 .slider_content> h1{
     color: white;
-    font-family: 'Open Ssans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 48px;
     font-weight: 700;
     margin-top: 50px;
@@ -73,15 +73,14 @@ Website: http://saif-rahman.com
 }
 .slider_content> p{
     color: #D3DFED;
-    font-family: 'Open Ssans',sans-serif;
-    font-size: 16px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
     font-weight: 500;
 }
 .slider_content> .btn_one{
     margin-top: 30px;
-    font-family: 'Open Ssans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 14px;
-    font-weight: 500;
     background: #F5600F;
     color: white;
     padding-top: 5px;
@@ -89,7 +88,7 @@ Website: http://saif-rahman.com
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 8px;
-    border: 1px solid #ffa336;
+    border: 1px solid #F5600F;
     margin-right: 20px;
 }
 .slider_content> .btn_one:hover{
@@ -98,9 +97,8 @@ Website: http://saif-rahman.com
 }
 .slider_content> .btn_two{
     margin-top: 30px;
-    font-family: 'Open Ssans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 14px;
-    font-weight: 500;
     background: #474D54;
     color: white;
     padding-top: 5px;
@@ -120,8 +118,6 @@ Website: http://saif-rahman.com
     transition: all 1.5s;
 }
 .indicator> img:hover{
-    width: 20px;
-    margin-top: 50px;
     transform: rotate(360deg);
 }
 /* slider part end */
@@ -141,13 +137,13 @@ Website: http://saif-rahman.com
     transform: scale(1.1);
 }
 .design_wrapper> .row> .design> .design_content> h1{
-    font-family: 'Open Ssans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 14px;
     font-weight: 700;
     padding-top: 15px;
 }
 .design_wrapper> .row> .design> .design_content> p{
-    font-family: 'Open Ssans',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 12px;
     font-weight: 600;
     padding-top: 10px;
@@ -165,66 +161,138 @@ Website: http://saif-rahman.com
 
 /* our work part start */
 .our_work_wrapper{
-    margin-top: 61px;
+    margin-top: 60px;
 }
-.our_work_wrapper> .row>.container> .our_work> .heading> h1{
+.our_work_wrapper>.row>.container>.header>h1{
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
 }
-.our_work_wrapper> .row>.container> .our_work> .heading> h1> span{
-    font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+.our_work_wrapper>.row>.container>.header>h1>span{
     color: #F5600F;
 }
-.our_work_wrapper> .row>.container> .our_work> .heading> p{
-    font-size: 13px;
+.our_work_wrapper>.row>.container>.header>p{
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    white-space: pre-line;
     color: #6C6963;
     margin-bottom: 60px;
 }
-.our_work_wrapper> .row>.container> .our_work> .row_1{
+.our_work_wrapper>.row>.container>.row1{
     margin-left: 43px;
+    margin-bottom: 25px;
 }
-.our_work_wrapper> .row>.container> .our_work> .row_2{
+.our_work_wrapper>.row>.container>.row2{
     margin-left: 43px;
-    margin-bottom: 66px;
+    margin-bottom: 60px;
 }
-.our_work_wrapper> .row>.container> .our_work> .row_1> .pixz_all_opacity> .thumbnail> img{
+.our_work_wrapper>.row>.container>.row1>.image>img{
     opacity: 0.8;
     transition: all 1s;
 }
-.our_work_wrapper> .row>.container> .our_work> .row_1> .pixz_all_opacity> .thumbnail> img:hover{
+.our_work_wrapper>.row>.container>.row1>.image>img:hover{
     opacity: 1;
-    transform: scale(0.95);
+    transform: scale(0.9);
 }
-.our_work_wrapper> .row>.container> .our_work> .row_2> .pixz_all_opacity> .thumbnail> img{
+.our_work_wrapper>.row>.container>.row2>.image>img{
     opacity: 0.8;
     transition: all 1s;
 }
-.our_work_wrapper> .row>.container> .our_work> .row_2> .pixz_all_opacity> .thumbnail> img:hover{
+.our_work_wrapper>.row>.container>.row2>.image>img:hover{
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
-.our_work_wrapper> .row>.container> .our_work> p> .btn_four{
+.our_work_wrapper>.row>.container>.button>p>.btn_four{
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
     color: #454952;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding: 8px 35px;
     border-radius: 8px;
     border: 1px solid #454952;
 }
-.our_work_wrapper> .row>.container> .our_work> p> .btn_four:hover{
+.our_work_wrapper>.row>.container>.button>p>.btn_four:hover{
     text-decoration: none;
     background: #363C44;
     border: 1px solid black;
     color: white;
 }
 /* our work part end */
+
+/* Quote part start */
+.quote_wrapper{
+    background-image: url(../images/face_transparent.png), url(../images/face_main.png);
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover;
+    padding-top: 74px;
+    padding-bottom: 57px;
+    margin-top: 65px;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+.quote>img{
+    width: 90px;
+}
+.quote>h1{
+    color: #DDDDDD;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 18px;
+}
+.quote>p{
+    color: #DDDDDD;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 18px;
+}
+/* Quote part end */
+
+/* Our team part start */
+.team_wrapper{
+    margin-top: 50px;
+}
+.team_wrapper>.row>.container>.header>h1{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.team_wrapper>.row>.container>.header>h1>span{
+    color: #F5600F;
+}
+.team_wrapper>.row>.container>.header>p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #6C6963;
+    margin-bottom: 50px;
+}
+.team_member>img{
+    width: 160px;
+}
+.team_member>.member_name>h1{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.social_button>li>img{
+    width: 20px;
+}
+.social>p{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #6C6963;
+    margin-bottom: 60px;
+    padding-top: 5px;
+}
+.team_member{
+    opacity: .8;
+    transition: all 1s;
+}
+.team_member:hover{
+    opacity: 1;
+    transform: scale(1.1)
+}
+/* Our team part end */
