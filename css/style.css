@@ -20,27 +20,44 @@ Website: http://saif-rahman.com
     
 }
 
-
 /* slider part start */
 /* top bar start */
 .slider_wrapper{
-    background-color: #474D54;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    height: 500px;
+    background-image: url(../images/tea_transparent.png), url(../images/slider_background.png);
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover;
+    height: 550px;
 }
 .slider_wrapper>.row>.container>.menu{
     color: white;
-    padding-top: 50px;
-    padding-left: 100px;
-    font-size: 16px;
+    padding-top: 40px;
+    padding-left: 130px;
+    font-size: 14px;
     font-family: 'Open Ssans',sans-serif;
     font-weight: 700;
-    border: 5px white;
+}
+.slider_wrapper>.row>.container>.menu>.list-inline>li{
+    padding: 15px;
+    background-color: #4A5057;
+    color: #A9A9A9;
+    font-weight: 600;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 10.9px #F7600E;
+    box-shadow: 0 5px 10px #A9A9A9;
+}
+.slider_wrapper>.row>.container>.menu>.list-inline>li:hover{
+    color: #F7600E;
+    border-bottom: 3px solid #F7600E;
+    margin-top: -18px;
+    text-shadow: 0px 0px 10.9px #F7600E;
+    box-shadow: 0 5px 15px #F7600E;
+    transform: scale3d(1.1, 1.1, 1.1)
 }
 .slider_wrapper>.row>.container>.logo>img{
     width: 140px;
     padding-left: 20px;
+    padding-top: 40px;
 }
 /* top bar end */
 /* slider part start */
@@ -99,7 +116,7 @@ Website: http://saif-rahman.com
 }
 .indicator> img{
     width: 20px;
-    margin-top: 50px;
+    margin-top: 70px;
     transition: all 1.5s;
 }
 .indicator> img:hover{
@@ -135,22 +152,33 @@ Website: http://saif-rahman.com
     font-weight: 600;
     padding-top: 10px;
 }
+
+/* newsletter part start */
+.newsletter_wrapper{
+    background-image: url(../images/tea_transparent.png), url(../images/tea.png);
+    background-position: center, center;
+    background-attachment: scroll, scroll;
+    background-size: cover;
+    height: 250px;
+}
+/* newsletter part end */
+
 /* our work part start */
 .our_work_wrapper{
     margin-top: 61px;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .heading> h1{
+.our_work_wrapper> .row>.container> .our_work> .heading> h1{
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .heading> h1> span{
+.our_work_wrapper> .row>.container> .our_work> .heading> h1> span{
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #F5600F;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .heading> p{
+.our_work_wrapper> .row>.container> .our_work> .heading> p{
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -158,30 +186,30 @@ Website: http://saif-rahman.com
     color: #6C6963;
     margin-bottom: 60px;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .row_1{
+.our_work_wrapper> .row>.container> .our_work> .row_1{
     margin-left: 43px;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .row_2{
+.our_work_wrapper> .row>.container> .our_work> .row_2{
     margin-left: 43px;
     margin-bottom: 66px;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .row_1> .pixz_all_opacity> .thumbnail> img{
+.our_work_wrapper> .row>.container> .our_work> .row_1> .pixz_all_opacity> .thumbnail> img{
     opacity: 0.8;
     transition: all 1s;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .row_1> .pixz_all_opacity> .thumbnail> img:hover{
+.our_work_wrapper> .row>.container> .our_work> .row_1> .pixz_all_opacity> .thumbnail> img:hover{
     opacity: 1;
     transform: scale(0.95);
 }
-.our_work_wrapper> .row> .our_work> .work_content> .row_2> .pixz_all_opacity> .thumbnail> img{
+.our_work_wrapper> .row>.container> .our_work> .row_2> .pixz_all_opacity> .thumbnail> img{
     opacity: 0.8;
     transition: all 1s;
 }
-.our_work_wrapper> .row> .our_work> .work_content> .row_2> .pixz_all_opacity> .thumbnail> img:hover{
+.our_work_wrapper> .row>.container> .our_work> .row_2> .pixz_all_opacity> .thumbnail> img:hover{
     opacity: 1;
     transform: scale(1.05);
 }
-.our_work_wrapper> .row> .our_work> p> .btn_four{
+.our_work_wrapper> .row>.container> .our_work> p> .btn_four{
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -193,7 +221,7 @@ Website: http://saif-rahman.com
     border-radius: 8px;
     border: 1px solid #454952;
 }
-.our_work_wrapper> .row> .our_work> p> .btn_four:hover{
+.our_work_wrapper> .row>.container> .our_work> p> .btn_four:hover{
     text-decoration: none;
     background: #363C44;
     border: 1px solid black;
